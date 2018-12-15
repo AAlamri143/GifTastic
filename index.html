@@ -8,14 +8,53 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 </head>
   
 <body>
      
-    </body>
+    <header>
+        <div class="header">
+            Movie shows
+        </div>
+    </header>
+    
+    <form class="form-inline" id="showSearch">
+        <div class="form-group">
+        <label for="movieInput">Search for a Movie Show</label>
+        <input type="text" id="movieInput">
+        <input id="addShow" type="submit" value="submit">
+        </div>
 
-    <script src="assets/javascript/app.js"></script>
+    </form>
+
+    <div class="row">
+        <div class="container">
+          <div class="newnew">
+            <button class="button" id="show" data-search="Stranger Things"><span>Stranger Things</span></button>
+            <button class="button" id="show" data-search="Narcos"><span>Narcos</span></button>
+            <button class="button" id="show" data-search="Luke Cage"><span>Luke Cage</span></button>
+            <button class="button" id="show" data-search="Jessica Jones"><span>Jessica Jones</span></button>
+
+            <i id="newButton"><span></span></i>
+          </div>
+        </div>
+    </div>
+
+    <div class="row1">
+        <div class="dontainer">
+            <span><div id="gifArea"></div></span>
+        </div>
+    </div>
+
+    <!-- <footer>
+        <div class="end"></div>
+    </footer> -->
+
+</body>
+
+<script src="assets/javascript/app.js"></script>
 
 </html>
