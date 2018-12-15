@@ -135,9 +135,9 @@
   border-image: url(../images/fram1.png);
   border: 20px solid rgb(0, 0, 28);;
   padding: 15px;
-  -webkit-border-image: url(../images/fram4.png) 100 ; /* Safari 3.1-5 */
-  -o-border-image: url(../images/fram4.png) 100 ; /* Opera 11-12.1 */
-  border-image: url(../images/fram4.png) 100 ;
+  /* -webkit-border-image: url(../images/fram4.png) 100 ; /* Safari 3.1-5
+  -o-border-image: url(../images/fram4.png) 100 ; Opera 11-12.1
+  border-image: url(../images/fram4.png) 100 ; */
 
 }
 
