@@ -22,7 +22,6 @@ $(document).ready(function() {
             var showDiv = $("<div class='col-md-4'>");
 
             var rating= results[i].rating;
-            var 
             var defaultAnimated = results[i].images.fixed_height.url;
             var staticSrc = results[i].images.fixed_height_still.url;
             var showImage = $("<img>");
