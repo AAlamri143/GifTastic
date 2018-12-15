@@ -7,7 +7,7 @@ $(document).ready(function() {
         var x = $(this).data('search');
         console.log(x);
 
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=BVJHKNmOpDlW3YlPUHFfY6sRg02GUrPx&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + x + "&api_key=BVJHKNmOpDlW3YlPUHFfY6sRg02GUrPx&limit=10";
 
         console.log(queryURL);
 
