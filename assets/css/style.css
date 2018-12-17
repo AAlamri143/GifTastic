@@ -131,7 +131,7 @@
   background: #f4511e;
   border-radius: 4px;
   height: 300px;
-  width: 300px;
+  width: 400px;
   border-image: url(../images/fram1.png);
   border: 20px solid rgb(0, 0, 28);;
   padding: 15px;
@@ -146,6 +146,7 @@
 }
 
 body {
+  /* background-image: url(../images/background5.jpg); */
   background: rgb(157, 157, 157);
   }
 
