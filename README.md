@@ -4,3 +4,11 @@ GifTastic This app allows you to control animated gifs (start/stop animation).Fi
 
 URL: [https://aalamri143.github.io/GifTastic/](https://aalamri143.github.io/GifTastic/).
 
+# Technologies Used
+
+* API
+* Bootstrap
+* HTML
+* CSS
+* Javascript
+* JQuery
